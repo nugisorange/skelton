@@ -34,7 +34,11 @@ export function getContentURL(){
             return url.template.content+"notifications/publish.html";
         case "notifications/program":
             return url.template.content+"notifications/program.html";
-        // case "explore":
+        case "swagger":
+            return url.template.content+"swagger.js";
+        case "swagger":
+            return url.template.content+"swaggerfunction.js";
+            // case "explore":
         //     return url.template.content+"explore.html";
         // case "saved":
         //     return url.template.content+"saved.html";
