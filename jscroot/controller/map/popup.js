@@ -15,6 +15,10 @@ export function popupInputMarker(evt, type, geospatial, coordinates) {
     let max = document.getElementById('inputmax');
     let min = document.getElementById('inputmin');
     let radius = document.getElementById('inputradius');
+
+    // Replace commas with line breaks to display each coordinate on a new line
+    coordinates = coordinates.replace(/,/g, '<br>');
+
     let msg = clickpopup.replace("#COORDINATE#", coordinates).replace("#TYPE#", type);
     setInner('popup-content', msg);
     setValue('koordinattt', coordinates);
