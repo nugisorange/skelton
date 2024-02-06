@@ -16,15 +16,15 @@ export function getContentURL(){
             return url.template.content+"profile/accounts.html";
         case "messages":
             return url.template.content+"messages.html";
-            case "tugas/chap01":
+        case "tugas/chap01":
                 return url.template.content+"tugas/chap01/index.html";
-            case "tugas/chap02":
+        case "tugas/chap02":
                 return url.template.content+"tugas/chap02/index.html";
-            case "tugas/chap03":
+        case "tugas/chap03":
                 return url.template.content+"tugas/chap03/index.html";
-            case "tugas/chap04":
+        case "tugas/chap04":
                 return url.template.content+"tugas/chap04/index.html";
-            case "tugas/chap05":
+        case "tugas/chap05":
                 return url.template.content+"tugas/chap05.html";
         case "notifications/blocked":
             return url.template.content+"notifications/blocked.html";
