@@ -16,6 +16,16 @@ export function getContentURL(){
             return url.template.content+"profile/accounts.html";
         case "messages":
             return url.template.content+"messages.html";
+            case "tugas/chap01":
+                return url.template.content+"tugas/chap01/index.html";
+            case "tugas/chap02":
+                return url.template.content+"tugas/chap02/index.html";
+            case "tugas/chap03":
+                return url.template.content+"tugas/chap03/index.html";
+            case "tugas/chap04":
+                return url.template.content+"tugas/chap04/index.html";
+            case "tugas/chap05":
+                return url.template.content+"tugas/chap05.html";
         case "notifications/blocked":
             return url.template.content+"notifications/blocked.html";
         case "notifications/silenced":
@@ -24,10 +34,10 @@ export function getContentURL(){
             return url.template.content+"notifications/publish.html";
         case "notifications/program":
             return url.template.content+"notifications/program.html";
-        case "explore":
-            return url.template.content+"explore.html";
-        case "saved":
-            return url.template.content+"saved.html";
+        // case "explore":
+        //     return url.template.content+"explore.html";
+        // case "saved":
+        //     return url.template.content+"saved.html";
         case "logout":
             return url.template.content+"logout.html";
         case "map":

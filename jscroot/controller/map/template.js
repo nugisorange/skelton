@@ -1,4 +1,4 @@
-export let xxx = "https://us-central1-exemplary-oven-401904.cloudfunctions.net/function-1";
+export let xxx = "https://asia-southeast2-project3-403614.cloudfunctions.net/gischap4";
 export let aaa = "https://asia-southeast2-exemplary-oven-401904.cloudfunctions.net/tambahpoint";
 export let bbb = "https://asia-southeast2-exemplary-oven-401904.cloudfunctions.net/tambahpolyline";
 export let ccc = "https://asia-southeast2-exemplary-oven-401904.cloudfunctions.net/tambahpolygon";

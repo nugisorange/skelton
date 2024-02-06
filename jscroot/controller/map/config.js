@@ -1,9 +1,9 @@
 import { fromLonLat } from 'https://cdn.skypack.dev/ol/proj.js';
 import { container } from 'https://jscroot.github.io/element/croot.js';
 
-const attributions = '<a href="https://befous.github.io/" target="_blank">&copy; Befous Indonesia</a> ';
+const attributions = '<a href="https://nugisorange.github.io/" target="_blank">&copy; Nugisorange Indonesia</a> ';
 
-const place = [110.36698666538787,-7.795860605018092];
+const place = [107.69200630757098, -6.908971696915415];
 
 const basemap = new ol.layer.Tile({
     source: new ol.source.OSM({
