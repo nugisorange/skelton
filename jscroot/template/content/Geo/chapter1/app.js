@@ -14,7 +14,7 @@ export function main() {
     const polygonTable = document.getElementById("polygonTable").getElementsByTagName('tbody')[0];
     const polylineTable = document.getElementById("polylineTable").getElementsByTagName('tbody')[0];
 
-    fetch("https://raw.githubusercontent.com/gis5syahid/skeleton/main/jscroot/template/content/Geo/chapter1/data.json")
+    fetch("https://raw.githubusercontent.com/nugisorange/skelton/main/jscroot/template/content/Geo/chapter1/data.json")
         .then(response => response.json())
         .then(data => {
             data.features.forEach(feature => {
