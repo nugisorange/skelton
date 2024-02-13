@@ -45,7 +45,7 @@ export function AddLayerToMAP(geojson){
                 return new ol.style.Style({
                     stroke: new ol.style.Stroke({
                         color: 'blue', 
-                        width: 2
+                        width: 1.5
                     })
                 });
             } else {
