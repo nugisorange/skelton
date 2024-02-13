@@ -25,19 +25,19 @@ const geospatialSelect = document.getElementById('geospatial');
 const styles = {
     Point: {
       'circle-radius': 5,
-      'circle-fill-color': 'orange',
+      'circle-fill-color': 'red',
     },
     LineString: {
       'circle-radius': 5,
-      'circle-fill-color': 'red',
-      'stroke-color': 'red',
+      'circle-fill-color': 'orange',
+      'stroke-color': 'yellow',
       'stroke-width': 1.5,
     },
     Polygon: {
       'circle-radius': 5,
       'circle-fill-color': 'blue',
-      'stroke-color': 'blue',
-      'stroke-width': 2,
+      'stroke-color': '',
+      'stroke-width': 0.5,
       'fill-color': 'blue',
     },
 };

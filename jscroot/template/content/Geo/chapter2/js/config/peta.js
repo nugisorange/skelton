@@ -9,7 +9,7 @@ import {container} from 'https://jscroot.github.io/element/croot.js';
 
 const attributions = '';
 
-const place = [95.31678153983819, 5.554925722443841];
+const place = [107.69200630757098, -6.908971696915415];
 
 export let idmarker = {id:1};
 

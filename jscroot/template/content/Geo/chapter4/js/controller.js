@@ -30,7 +30,7 @@ export function AddLayerToMAP(geojson){
         source: Sourcedata,
         style: new ol.style.Style({
             image: new ol.style.Icon({
-                src: 'assets/img/point.png', 
+                src: 'assets/img/lokasi.png', 
                 scale: 0.3, 
                 opacity: 1
             })
@@ -52,7 +52,7 @@ export function AddLayerToMAP(geojson){
                 
                 return new ol.style.Style({
                     stroke: new ol.style.Stroke({
-                        color: 'red', 
+                        color: 'orange', 
                         width: 1.5
                     })
                 });
